@@ -16,10 +16,20 @@ public class Email {
     private String alternateEmail;
     private int mailCapacity;
     private String password;
+    private int passwordLength = 10;
 
-    private String generatePassword() {
-        // return String.valueOf(firstName.charAt(0) + lastName.charAt(0) + departmentName.charAt(0) + companyName.charAt(0));
+    private String generatePasswordDumb() {
         return firstName.substring(firstName.length() - 2) + lastName.substring(lastName.length() - 2) + "_" + ((int)(Math.random()*(301)+100));
+    }
+
+    private String generatePassword(int length){
+        String passwordSet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890#$%!";
+        char[] password = new char[length];
+        for (int i = 0; i < length; i++){
+            int rand = (int) (Math.random() * passwordSet.length());
+            password[i] = passwordSet.charAt(rand);
+        }
+        return String.valueOf(password);
     }
     public void setMailCapacity(int capacity){
         if (mailCapacity < capacity) {
@@ -54,7 +64,8 @@ public class Email {
         this.lastName = lastName;
         this.departmentName = departmentName;
         this.companyName = companyName;
-        this.password = generatePassword();
+        this.password = generatePassword(passwordLength);
+        System.out.println(this.password);
         this.email = generateEmail();
         this.mailCapacity = 50;
     }
