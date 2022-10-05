@@ -12,6 +12,7 @@ public class Student  {
     private String firstName;
     private String lastName;
     private int studentId;
+    private int id = 1000;
     private int gradeLevel;
     public static HashMap<Integer,String> coursesList = new HashMap<>();
     private final BiConsumer<Integer,String> biConsumer = (k,v) -> System.out.println("Code " + k + " for " + v);
@@ -47,8 +48,8 @@ public class Student  {
         payTuition();
     }
     private int getStudentID(){
-        int rand = (int) (Math.random() * 9000) + 1000;
-        return this.gradeLevel * 10000 + rand;
+        id++;
+        return this.gradeLevel * 10000 + id;
     }
 
     private ArrayList<String> getCourses() {
