@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1030c85b-6700-4d06-9f84-441c5c9a5001" name="Changes" comment="another password generator">
-      <change afterPath="$PROJECT_DIR$/src/main/java/studentdatabaseapp/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/studentdatabaseapp/StudentDatabaseApp.java" afterDir="false" />
+    <list default="true" id="1030c85b-6700-4d06-9f84-441c5c9a5001" name="Changes" comment="start new app StudentDatabaseApp">
+      <change afterPath="$PROJECT_DIR$/src/main/java/studentdatabaseapp/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/studentdatabaseapp/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studentdatabaseapp/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/studentdatabaseapp/StudentDatabaseApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studentdatabaseapp/StudentDatabaseApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664899882361</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="start new app StudentDatabaseApp">
+      <created>1664902612283</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664902612283</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +127,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create email app" />
     <MESSAGE value="another password generator" />
-    <option name="LAST_COMMIT_MESSAGE" value="another password generator" />
+    <MESSAGE value="start new app StudentDatabaseApp" />
+    <option name="LAST_COMMIT_MESSAGE" value="start new app StudentDatabaseApp" />
   </component>
 </project>
