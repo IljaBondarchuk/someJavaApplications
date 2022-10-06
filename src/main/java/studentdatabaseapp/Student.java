@@ -12,7 +12,7 @@ public class Student  {
     private String firstName;
     private String lastName;
     private int studentId;
-    private int id = 1000;
+    private static int id = 1000;
     private int gradeLevel;
     public static HashMap<Integer,String> coursesList = new HashMap<>();
     private final BiConsumer<Integer,String> biConsumer = (k,v) -> System.out.println("Code " + k + " for " + v);
