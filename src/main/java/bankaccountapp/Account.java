@@ -19,7 +19,7 @@ public abstract class Account implements IBaseRate {
         this.balance = initDeposit;
         id++;
         this.accountNumber = generateAccountNumber();
-        getRate();
+        setRate();
     }
 
     private String generateAccountNumber(){

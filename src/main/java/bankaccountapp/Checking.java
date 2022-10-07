@@ -26,6 +26,7 @@ public class Checking extends Account{
                 ", initialDeposit=" + balance +
                 ", accountNumber='" + accountNumber + '\'' +
                 ", balance=" + balance + '\'' +
+                ", rate='" + rate + '\'' +
                 '}';
         System.out.println(info);
         return info;

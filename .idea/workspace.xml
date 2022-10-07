@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1030c85b-6700-4d06-9f84-441c5c9a5001" name="Changes" comment="minor fix for Student id&#10;add new BankAccountApp">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1030c85b-6700-4d06-9f84-441c5c9a5001" name="Changes" comment="finishing banking app">
       <change beforePath="$PROJECT_DIR$/src/main/java/bankaccountapp/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bankaccountapp/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bankaccountapp/BankAccountApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bankaccountapp/BankAccountApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bankaccountapp/Checking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bankaccountapp/Checking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bankaccountapp/IBaseRate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bankaccountapp/IBaseRate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bankaccountapp/Saving.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bankaccountapp/Saving.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665052834554</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="finishing banking app">
+      <created>1665167668466</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665167668466</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,7 +174,8 @@
     <MESSAGE value="finish tiny app StudentDatabaseApp" />
     <MESSAGE value="make id student unique" />
     <MESSAGE value="minor fix for Student id&#10;add new BankAccountApp" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor fix for Student id&#10;add new BankAccountApp" />
+    <MESSAGE value="finishing banking app" />
+    <option name="LAST_COMMIT_MESSAGE" value="finishing banking app" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

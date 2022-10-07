@@ -28,6 +28,7 @@ public class Saving extends Account{
                 ", accountType='" + accountType + '\'' +
                 ", initialDeposit=" + balance +
                 ", accountNumber='" + accountNumber + '\'' +
+                ", rate='" + rate + '\'' +
                 '}';
         System.out.println(info);
         return info;
