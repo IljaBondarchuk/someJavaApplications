@@ -8,26 +8,33 @@ public class Saving extends Account{
     private static int id = 100;
 
 
-    public Saving(String name, String socialSecurityNumber, String accountType, int initialDeposit) {
-        super(name, socialSecurityNumber, accountType, initialDeposit);
+    public Saving(String name, String socialSecurityNumber, String accountType, int initDeposit) {
+        super(name, socialSecurityNumber, accountType, initDeposit);
         this.safetyDepositBox = id++;
         this.accessToSafetyDepositBox = generatePinCode();
     }
 
     private int generatePinCode(){
-        return (int) (Math.random() * 999 + 100);
+        return (int) (Math.random() * 899 + 100);
     }
 
     @Override
-    public String toString() {
-        return "Saving{" +
+    public String showInfo() {
+        String info = "Saving{" +
                 "safetyDepositBox=" + safetyDepositBox +
                 ", accessToSafetyDepositBox=" + accessToSafetyDepositBox +
                 ", name='" + name + '\'' +
                 ", socialSecurityNumber='" + socialSecurityNumber + '\'' +
                 ", accountType='" + accountType + '\'' +
-                ", initialDeposit=" + initialDeposit +
+                ", initialDeposit=" + balance +
                 ", accountNumber='" + accountNumber + '\'' +
                 '}';
+        System.out.println(info);
+        return info;
+    }
+
+    @Override
+    public void setRate() {
+       rate = getRate() - .25;
     }
 }

@@ -3,8 +3,16 @@ package bankaccountapp;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.ArrayList;
+import java.util.List;
 
 public class BankAccountApp {
+
+    public static Account getAccountByNumber (List<Account> accountList, String accNum) {
+        for (Account account : accountList) {
+            if (account.getAccountNumber().equals(accNum)) return account;
+        }
+        return null;
+    }
     public static void main(String[] args) {
         ArrayList<Account> accountArrayList = new ArrayList<>();
        String line = "";
@@ -23,6 +31,8 @@ public class BankAccountApp {
        catch (Exception e){
            e.printStackTrace();
        }
-    accountArrayList.forEach(System.out::println);
+    accountArrayList.forEach((Account::showInfo));
+       accountArrayList.get(3).transfer("Yoshi", 3000);
+        accountArrayList.get(3).showInfo();
     }
 }

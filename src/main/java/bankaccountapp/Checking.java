@@ -5,26 +5,35 @@ public class Checking extends Account{
     private final int accessToDebitCard;
     private static long id = 100000000000L;
 
-    public Checking(String name, String socialSecurityNumber, String accountType, int initialDeposit) {
-        super(name, socialSecurityNumber, accountType, initialDeposit);
+    public Checking(String name, String socialSecurityNumber, String accountType, int initDeposit) {
+        super(name, socialSecurityNumber, accountType, initDeposit);
         this.debitCard = String.valueOf(id++);
         this.accessToDebitCard = generatePin();
     }
 
     private int generatePin(){
-        return (int)(Math.random()*9999+1000);
+        return (int)(Math.random()*8999+1000);
     }
 
     @Override
-    public String toString() {
-        return "Checking{" +
+    public String showInfo() {
+        String info = "Checking{" +
                 "debitCard='" + debitCard + '\'' +
                 ", accessToDebitCard=" + accessToDebitCard +
                 ", name='" + name + '\'' +
                 ", socialSecurityNumber='" + socialSecurityNumber + '\'' +
                 ", accountType='" + accountType + '\'' +
-                ", initialDeposit=" + initialDeposit +
+                ", initialDeposit=" + balance +
                 ", accountNumber='" + accountNumber + '\'' +
+                ", balance=" + balance + '\'' +
                 '}';
+        System.out.println(info);
+        return info;
     }
+
+    @Override
+    public void setRate() {
+        rate = getRate()*.15;
+    }
+
 }

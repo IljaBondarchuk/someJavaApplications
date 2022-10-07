@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1030c85b-6700-4d06-9f84-441c5c9a5001" name="Changes" comment="make id student unique">
-      <change afterPath="$PROJECT_DIR$/src/main/java/bankaccountapp/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bankaccountapp/BankAccountApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bankaccountapp/Checking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bankaccountapp/IBaseRate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bankaccountapp/Saving.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/NewBankAccounts.csv" afterDir="false" />
+    <list default="true" id="1030c85b-6700-4d06-9f84-441c5c9a5001" name="Changes" comment="minor fix for Student id&#10;add new BankAccountApp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/studentdatabaseapp/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studentdatabaseapp/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bankaccountapp/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bankaccountapp/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bankaccountapp/BankAccountApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bankaccountapp/BankAccountApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bankaccountapp/Checking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bankaccountapp/Checking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bankaccountapp/IBaseRate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bankaccountapp/IBaseRate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bankaccountapp/Saving.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bankaccountapp/Saving.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,12 +43,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.BankAccountApp">
     <configuration name="BankAccountApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bankaccountapp.BankAccountApp" />
@@ -143,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664967877487</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="minor fix for Student id&#10;add new BankAccountApp">
+      <created>1665052834554</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665052834554</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,25 +168,21 @@
     <MESSAGE value="start new app StudentDatabaseApp" />
     <MESSAGE value="finish tiny app StudentDatabaseApp" />
     <MESSAGE value="make id student unique" />
-    <option name="LAST_COMMIT_MESSAGE" value="make id student unique" />
+    <MESSAGE value="minor fix for Student id&#10;add new BankAccountApp" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor fix for Student id&#10;add new BankAccountApp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/bankaccountapp/Account.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="7" />
+          <url>file://$PROJECT_DIR$/src/main/java/bankaccountapp/BankAccountApp.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/bankaccountapp/Account.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/bankaccountapp/Account.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="10" />
+          <url>file://$PROJECT_DIR$/src/main/java/bankaccountapp/BankAccountApp.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
