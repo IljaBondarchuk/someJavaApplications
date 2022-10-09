@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1030c85b-6700-4d06-9f84-441c5c9a5001" name="Changes" comment="finishing banking app">
-      <change beforePath="$PROJECT_DIR$/src/main/java/bankaccountapp/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bankaccountapp/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bankaccountapp/BankAccountApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bankaccountapp/BankAccountApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bankaccountapp/Checking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bankaccountapp/Checking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bankaccountapp/Saving.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bankaccountapp/Saving.java" afterDir="false" />
+    <list default="true" id="1030c85b-6700-4d06-9f84-441c5c9a5001" name="Changes" comment="minor fixing">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/reduceNumToZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/richestCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/weakestRow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -47,26 +47,13 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BankAccountApp">
+  <component name="RunManager" selected="Application.weakestRow">
     <configuration name="BankAccountApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bankaccountapp.BankAccountApp" />
       <module name="someJavaApplications" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="bankaccountapp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EmailApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="emailApp.EmailApp" />
-      <module name="someJavaApplications" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="emailApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,11 +74,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="reduceNumToZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.reduceNumToZero" />
+      <module name="someJavaApplications" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="richestCustomer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.richestCustomer" />
+      <module name="someJavaApplications" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="weakestRow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.weakestRow" />
+      <module name="someJavaApplications" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.weakestRow" />
+        <item itemvalue="Application.reduceNumToZero" />
+        <item itemvalue="Application.richestCustomer" />
         <item itemvalue="Application.BankAccountApp" />
         <item itemvalue="Application.StudentDatabaseApp" />
-        <item itemvalue="Application.EmailApp" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665167668466</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="minor fixing">
+      <created>1665167886253</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665167886253</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,22 +210,7 @@
     <MESSAGE value="make id student unique" />
     <MESSAGE value="minor fix for Student id&#10;add new BankAccountApp" />
     <MESSAGE value="finishing banking app" />
-    <option name="LAST_COMMIT_MESSAGE" value="finishing banking app" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/bankaccountapp/BankAccountApp.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/bankaccountapp/BankAccountApp.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="minor fixing" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor fixing" />
   </component>
 </project>
