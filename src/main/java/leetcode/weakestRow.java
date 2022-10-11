@@ -43,16 +43,14 @@ public class weakestRow {
     }
 
     public static void main(String[] args) {
-        int[][] mat = new int[4][2];
-        mat[0][0] = 1;
-        mat[0][1] = 0;
-        mat[1][0] = 1;
-        mat[1][1] = 0;
-        mat[2][0] = 1;
-        mat[2][1] = 0;
-        mat[3][0] = 1;
-        mat[3][1] = 1;
-        System.out.println((findWeak(mat, 4)));
+        int[][] mat = {
+                {1,1,1,0,0,0,0},
+                {1,1,1,1,1,1,0},
+                {0,0,0,0,0,0,0},
+                {1,1,1,0,0,0,0},
+                {1,1,1,1,1,1,1}
+        };
+        System.out.println(findWeak(mat, 2));
 
     }
 }

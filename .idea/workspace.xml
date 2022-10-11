@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1030c85b-6700-4d06-9f84-441c5c9a5001" name="Changes" comment="minor fixing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/reduceNumToZero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/richestCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/weakestRow.java" afterDir="false" />
+    <list default="true" id="1030c85b-6700-4d06-9f84-441c5c9a5001" name="Changes" comment="leet code tasks">
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/fizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/ransomNote.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/weakestRow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/weakestRow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,19 +44,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="Application.weakestRow">
-    <configuration name="BankAccountApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bankaccountapp.BankAccountApp" />
+}]]></component>
+  <component name="RunManager" selected="Application.ransomNote">
+    <configuration name="fizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.fizzBuzz" />
       <module name="someJavaApplications" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bankaccountapp.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentDatabaseApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="studentdatabaseapp.StudentDatabaseApp" />
+    <configuration name="leetcode.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Solution" />
       <module name="someJavaApplications" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="studentdatabaseapp.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,7 +79,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="reduceNumToZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode.reduceNumToZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.reduceNumToZero" />
       <module name="someJavaApplications" />
       <extension name="coverage">
@@ -87,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="richestCustomer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.richestCustomer" />
+    <configuration name="leetcode.weakestRow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.weakestRow" />
       <module name="someJavaApplications" />
       <extension name="coverage">
         <pattern>
@@ -100,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="weakestRow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.weakestRow" />
+    <configuration name="ransomNote" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.ransomNote" />
       <module name="someJavaApplications" />
       <extension name="coverage">
         <pattern>
@@ -115,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.weakestRow" />
-        <item itemvalue="Application.reduceNumToZero" />
-        <item itemvalue="Application.richestCustomer" />
-        <item itemvalue="Application.BankAccountApp" />
-        <item itemvalue="Application.StudentDatabaseApp" />
+        <item itemvalue="Application.ransomNote" />
+        <item itemvalue="Application.fizzBuzz" />
+        <item itemvalue="Application.leetcode.Solution" />
+        <item itemvalue="Application.leetcode.weakestRow" />
+        <item itemvalue="Application.leetcode.reduceNumToZero" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665167886253</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="leet code tasks">
+      <created>1665339043759</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1665339043759</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -211,6 +223,7 @@
     <MESSAGE value="minor fix for Student id&#10;add new BankAccountApp" />
     <MESSAGE value="finishing banking app" />
     <MESSAGE value="minor fixing" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor fixing" />
+    <MESSAGE value="leet code tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="leet code tasks" />
   </component>
 </project>
