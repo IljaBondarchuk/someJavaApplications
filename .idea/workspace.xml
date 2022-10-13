@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1030c85b-6700-4d06-9f84-441c5c9a5001" name="Changes" comment="check this task later ListNode">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/romanToInteger.java" afterDir="false" />
+    <list default="true" id="1030c85b-6700-4d06-9f84-441c5c9a5001" name="Changes" comment="romanToInteger task">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/MiddleOfLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,9 +47,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.romanToInteger">
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.Solution" />
+  <component name="RunManager" selected="Application.MiddleOfLinkedList">
+    <configuration name="MiddleOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.MiddleOfLinkedList" />
       <module name="someJavaApplications" />
       <extension name="coverage">
         <pattern>
@@ -115,6 +115,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MiddleOfLinkedList" />
         <item itemvalue="Application.romanToInteger" />
         <item itemvalue="Application.leetcode.ransomNote" />
         <item itemvalue="Application.leetcode.fizzBuzz" />
@@ -207,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665513039460</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="romanToInteger task">
+      <created>1665690958405</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1665690958405</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -232,69 +240,50 @@
     <MESSAGE value="minor fixing" />
     <MESSAGE value="leet code tasks" />
     <MESSAGE value="check this task later ListNode" />
-    <option name="LAST_COMMIT_MESSAGE" value="check this task later ListNode" />
+    <MESSAGE value="romanToInteger task" />
+    <option name="LAST_COMMIT_MESSAGE" value="romanToInteger task" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/romanToInteger.java</url>
-          <line>107</line>
+          <line>112</line>
           <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/romanToInteger.java</url>
-          <line>121</line>
-          <option name="timeStamp" value="98" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/romanToInteger.java</url>
-          <line>126</line>
-          <option name="timeStamp" value="99" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/romanToInteger.java</url>
-          <line>129</line>
-          <option name="timeStamp" value="100" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/romanToInteger.java</url>
-          <line>131</line>
-          <option name="timeStamp" value="102" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/romanToInteger.java</url>
-          <line>77</line>
+          <line>82</line>
           <option name="timeStamp" value="104" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/romanToInteger.java</url>
-          <line>79</line>
+          <line>84</line>
           <option name="timeStamp" value="105" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/romanToInteger.java</url>
-          <line>80</line>
+          <line>85</line>
           <option name="timeStamp" value="106" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/romanToInteger.java</url>
-          <line>67</line>
+          <line>72</line>
           <option name="timeStamp" value="107" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/romanToInteger.java</url>
-          <line>68</line>
+          <line>73</line>
           <option name="timeStamp" value="108" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/romanToInteger.java</url>
-          <line>70</line>
+          <line>75</line>
           <option name="timeStamp" value="109" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/romanToInteger.java</url>
-          <line>71</line>
+          <line>76</line>
           <option name="timeStamp" value="110" />
         </line-breakpoint>
       </breakpoints>
