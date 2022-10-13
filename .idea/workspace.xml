@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1030c85b-6700-4d06-9f84-441c5c9a5001" name="Changes" comment="romanToInteger task">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/MiddleOfLinkedList.java" afterDir="false" />
+    <list default="true" id="1030c85b-6700-4d06-9f84-441c5c9a5001" name="Changes" comment="MiddleOfLinkedList">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/arrayInArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/MiddleOfLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/MiddleOfLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/PalindromeLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/PalindromeLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/fizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/fizzBuzz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/ransomNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/ransomNote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/reduceNumToZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/reduceNumToZero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/richestCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/richestCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/romanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/romanToInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/weakestRow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/weakestRow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +56,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MiddleOfLinkedList">
-    <configuration name="MiddleOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.MiddleOfLinkedList" />
+  <component name="RunManager" selected="Application.arrayInArray">
+    <configuration name="arrayInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.easy.arrayInArray" />
       <module name="someJavaApplications" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="leetcode.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.fizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.fizzBuzz" />
+    <configuration name="fizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.easy.fizzBuzz" />
       <module name="someJavaApplications" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="leetcode.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.ransomNote" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.ransomNote" />
+    <configuration name="leetcode.easy.MiddleOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.easy.MiddleOfLinkedList" />
       <module name="someJavaApplications" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="leetcode.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="romanToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.romanToInteger" />
+    <configuration name="leetcode.easy.romanToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.easy.romanToInteger" />
       <module name="someJavaApplications" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="leetcode.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="weakestRow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.weakestRow" />
+    <configuration name="ransomNote" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.easy.ransomNote" />
       <module name="someJavaApplications" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="leetcode.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,10 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MiddleOfLinkedList" />
-        <item itemvalue="Application.romanToInteger" />
-        <item itemvalue="Application.leetcode.ransomNote" />
-        <item itemvalue="Application.leetcode.fizzBuzz" />
+        <item itemvalue="Application.arrayInArray" />
+        <item itemvalue="Application.leetcode.easy.MiddleOfLinkedList" />
+        <item itemvalue="Application.leetcode.easy.romanToInteger" />
+        <item itemvalue="Application.leetcode.easy.ransomNote" />
+        <item itemvalue="Application.leetcode.easy.fizzBuzz" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665690958405</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="MiddleOfLinkedList">
+      <created>1665691844411</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1665691844411</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -241,48 +258,49 @@
     <MESSAGE value="leet code tasks" />
     <MESSAGE value="check this task later ListNode" />
     <MESSAGE value="romanToInteger task" />
-    <option name="LAST_COMMIT_MESSAGE" value="romanToInteger task" />
+    <MESSAGE value="MiddleOfLinkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="MiddleOfLinkedList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/romanToInteger.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/easy/romanToInteger.java</url>
           <line>112</line>
           <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/romanToInteger.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/easy/romanToInteger.java</url>
           <line>82</line>
           <option name="timeStamp" value="104" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/romanToInteger.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/easy/romanToInteger.java</url>
           <line>84</line>
           <option name="timeStamp" value="105" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/romanToInteger.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/easy/romanToInteger.java</url>
           <line>85</line>
           <option name="timeStamp" value="106" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/romanToInteger.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/easy/romanToInteger.java</url>
           <line>72</line>
           <option name="timeStamp" value="107" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/romanToInteger.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/easy/romanToInteger.java</url>
           <line>73</line>
           <option name="timeStamp" value="108" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/romanToInteger.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/easy/romanToInteger.java</url>
           <line>75</line>
           <option name="timeStamp" value="109" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/romanToInteger.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/easy/romanToInteger.java</url>
           <line>76</line>
           <option name="timeStamp" value="110" />
         </line-breakpoint>
