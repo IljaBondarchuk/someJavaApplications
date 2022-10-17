@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1030c85b-6700-4d06-9f84-441c5c9a5001" name="Changes" comment="oldInterview task :)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/nixchallenge/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nixchallenge/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nixchallenge/Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nixchallenge/Task4.java" afterDir="false" />
+    <list default="true" id="1030c85b-6700-4d06-9f84-441c5c9a5001" name="Changes" comment="leetcode medium">
+      <change afterPath="$PROJECT_DIR$/src/main/java/studentdatabaseapp/StudentDataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/studentdatabaseapp/StudentOld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/study/constructorreference/ConstructorReferenceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/study/methodreference/ConsumerMethodReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/study/methodreference/FunctionMethodReferenceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/study/methodreference/RefactorMethodReferenceExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/studentdatabaseapp/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studentdatabaseapp/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/studentdatabaseapp/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studentdatabaseapp/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/studentdatabaseapp/StudentDatabaseApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studentdatabaseapp/StudentDatabaseApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +33,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -50,13 +60,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Task4">
-    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nixchallenge.Task1" />
+  <component name="RunManager" selected="Application.ConstructorReferenceExample">
+    <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.medium.AddTwoNumbers" />
       <module name="someJavaApplications" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nixchallenge.*" />
+          <option name="PATTERN" value="leetcode.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nixchallenge.Task2" />
+    <configuration name="ConstructorReferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study.constructorreference.ConstructorReferenceExample" />
       <module name="someJavaApplications" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nixchallenge.*" />
+          <option name="PATTERN" value="study.constructorreference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nixchallenge.Task3" />
+    <configuration name="ConsumerMethodReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study.methodreference.ConsumerMethodReference" />
       <module name="someJavaApplications" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nixchallenge.*" />
+          <option name="PATTERN" value="study.methodreference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nixchallenge.Task4" />
+    <configuration name="RefactorMethodReferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study.methodreference.RefactorMethodReferenceExample" />
       <module name="someJavaApplications" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nixchallenge.*" />
+          <option name="PATTERN" value="study.methodreference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="arrayInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.easy.arrayInArray" />
+    <configuration name="study.methodreference.FunctionMethodReferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study.methodreference.FunctionMethodReferenceExample" />
       <module name="someJavaApplications" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.easy.*" />
+          <option name="PATTERN" value="study.methodreference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task4" />
-        <item itemvalue="Application.Task3" />
-        <item itemvalue="Application.Task2" />
-        <item itemvalue="Application.Task1" />
-        <item itemvalue="Application.arrayInArray" />
+        <item itemvalue="Application.ConstructorReferenceExample" />
+        <item itemvalue="Application.RefactorMethodReferenceExample" />
+        <item itemvalue="Application.ConsumerMethodReference" />
+        <item itemvalue="Application.study.methodreference.FunctionMethodReferenceExample" />
+        <item itemvalue="Application.AddTwoNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +243,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665692765689</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Nix challenge">
+      <created>1665999063747</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1665999063747</updated>
+    </task>
+    <task id="LOCAL-00016" summary="leetcode medium">
+      <created>1666017126491</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1666017126491</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -261,7 +285,9 @@
     <MESSAGE value="romanToInteger task" />
     <MESSAGE value="MiddleOfLinkedList" />
     <MESSAGE value="oldInterview task :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="oldInterview task :)" />
+    <MESSAGE value="Nix challenge" />
+    <MESSAGE value="leetcode medium" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode medium" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -308,27 +334,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/nixchallenge/Task3.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="123" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/nixchallenge/Task3.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="124" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/nixchallenge/Task3.java</url>
-          <line>46</line>
+          <line>56</line>
           <option name="timeStamp" value="126" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/nixchallenge/Task3.java</url>
-          <line>48</line>
+          <line>58</line>
           <option name="timeStamp" value="128" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/nixchallenge/Task4.java</url>
-          <line>77</line>
+          <line>98</line>
           <properties class="nixchallenge.Task4" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />

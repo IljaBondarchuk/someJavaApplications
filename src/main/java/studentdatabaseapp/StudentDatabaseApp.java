@@ -7,21 +7,21 @@ import java.util.Scanner;
 
 public class StudentDatabaseApp {
     public static void main(String[] args) {
-        List<Student> studentList = new ArrayList<>();
+        List<StudentOld> studentOldList = new ArrayList<>();
         System.out.println("How many students do you want to add?");
         Scanner in = new Scanner(System.in);
         int countStudents = in.nextInt();
         for (int i = 0; i < countStudents; i++){
             in.nextLine();
-            System.out.println("Student number " + (i+1) + " firstname is:");
+            System.out.println("StudentOld number " + (i+1) + " firstname is:");
             String firstName = in.nextLine();
             System.out.println("Lastname is: ");
             String lastName = in.nextLine();
             System.out.println("Gradelevel is: ");
             int gradeLevel = in.nextInt();
-            Student student = new Student(firstName,lastName,gradeLevel);
-            studentList.add(student);
+            StudentOld studentOld = new StudentOld(firstName,lastName,gradeLevel);
+            studentOldList.add(studentOld);
         }
-        studentList.forEach(System.out::println);
+        studentOldList.forEach(System.out::println);
     }
 }
