@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1030c85b-6700-4d06-9f84-441c5c9a5001" name="Changes" comment="MiddleOfLinkedList">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/arrayInArray.java" afterDir="false" />
+    <list default="true" id="1030c85b-6700-4d06-9f84-441c5c9a5001" name="Changes" comment="oldInterview task :)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/nixchallenge/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nixchallenge/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nixchallenge/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nixchallenge/Task4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/MiddleOfLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/MiddleOfLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/PalindromeLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/PalindromeLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/fizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/fizzBuzz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/ransomNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/ransomNote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/reduceNumToZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/reduceNumToZero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/richestCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/richestCustomer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/romanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/romanToInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/weakestRow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/weakestRow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +50,59 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.arrayInArray">
+  <component name="RunManager" selected="Application.Task4">
+    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nixchallenge.Task1" />
+      <module name="someJavaApplications" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nixchallenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nixchallenge.Task2" />
+      <module name="someJavaApplications" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nixchallenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nixchallenge.Task3" />
+      <module name="someJavaApplications" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nixchallenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nixchallenge.Task4" />
+      <module name="someJavaApplications" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nixchallenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="arrayInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.easy.arrayInArray" />
       <module name="someJavaApplications" />
@@ -70,65 +116,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.easy.fizzBuzz" />
-      <module name="someJavaApplications" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="leetcode.easy.MiddleOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.easy.MiddleOfLinkedList" />
-      <module name="someJavaApplications" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="leetcode.easy.romanToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.easy.romanToInteger" />
-      <module name="someJavaApplications" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ransomNote" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.easy.ransomNote" />
-      <module name="someJavaApplications" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task4" />
+        <item itemvalue="Application.Task3" />
+        <item itemvalue="Application.Task2" />
+        <item itemvalue="Application.Task1" />
         <item itemvalue="Application.arrayInArray" />
-        <item itemvalue="Application.leetcode.easy.MiddleOfLinkedList" />
-        <item itemvalue="Application.leetcode.easy.romanToInteger" />
-        <item itemvalue="Application.leetcode.easy.ransomNote" />
-        <item itemvalue="Application.leetcode.easy.fizzBuzz" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665691844411</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="oldInterview task :)">
+      <created>1665692765689</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1665692765689</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -259,7 +260,8 @@
     <MESSAGE value="check this task later ListNode" />
     <MESSAGE value="romanToInteger task" />
     <MESSAGE value="MiddleOfLinkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="MiddleOfLinkedList" />
+    <MESSAGE value="oldInterview task :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="oldInterview task :)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -303,6 +305,35 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/easy/romanToInteger.java</url>
           <line>76</line>
           <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/nixchallenge/Task3.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/nixchallenge/Task3.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/nixchallenge/Task3.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/nixchallenge/Task3.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/nixchallenge/Task4.java</url>
+          <line>77</line>
+          <properties class="nixchallenge.Task4" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="154" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
