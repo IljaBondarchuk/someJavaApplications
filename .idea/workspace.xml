@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1030c85b-6700-4d06-9f84-441c5c9a5001" name="Changes" comment="leetcode medium">
-      <change afterPath="$PROJECT_DIR$/src/main/java/studentdatabaseapp/StudentDataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/studentdatabaseapp/StudentOld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/study/constructorreference/ConstructorReferenceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/study/methodreference/ConsumerMethodReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/study/methodreference/FunctionMethodReferenceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/study/methodreference/RefactorMethodReferenceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/study/lamdas/LambdaVariable1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/study/lamdas/LambdaVariable2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/study/streams/StreamsExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/studentdatabaseapp/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studentdatabaseapp/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/studentdatabaseapp/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studentdatabaseapp/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/studentdatabaseapp/StudentDatabaseApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studentdatabaseapp/StudentDatabaseApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,20 +54,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ConstructorReferenceExample">
-    <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.medium.AddTwoNumbers" />
-      <module name="someJavaApplications" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StreamsExample">
     <configuration name="ConstructorReferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="study.constructorreference.ConstructorReferenceExample" />
       <module name="someJavaApplications" />
@@ -100,6 +81,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LambdaVariable2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study.lamdas.LambdaVariable2" />
+      <module name="someJavaApplications" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study.lamdas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RefactorMethodReferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="study.methodreference.RefactorMethodReferenceExample" />
       <module name="someJavaApplications" />
@@ -113,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="study.methodreference.FunctionMethodReferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="study.methodreference.FunctionMethodReferenceExample" />
+    <configuration name="StreamsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study.streams.StreamsExample" />
       <module name="someJavaApplications" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="study.methodreference.*" />
+          <option name="PATTERN" value="study.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamsExample" />
+        <item itemvalue="Application.LambdaVariable2" />
         <item itemvalue="Application.ConstructorReferenceExample" />
         <item itemvalue="Application.RefactorMethodReferenceExample" />
         <item itemvalue="Application.ConsumerMethodReference" />
-        <item itemvalue="Application.study.methodreference.FunctionMethodReferenceExample" />
-        <item itemvalue="Application.AddTwoNumbers" />
       </list>
     </recent_temporary>
   </component>
