@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1030c85b-6700-4d06-9f84-441c5c9a5001" name="Changes" comment="update gitignore">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="1030c85b-6700-4d06-9f84-441c5c9a5001" name="Changes" comment="get back into learning, closedBrackets task">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/mergeAlternately.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="study" />
+        <entry key="$PROJECT_DIR$" value="leetcode" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,26 +53,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.twoSum">
-    <configuration name="ConstructorReferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="study.constructorreference.ConstructorReferenceExample" />
+  <component name="RunManager" selected="Application.mergeAlternately">
+    <configuration name="PalindromNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.easy.PalindromNumber" />
       <module name="someJavaApplications" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="study.constructorreference.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConsumerMethodReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="study.methodreference.ConsumerMethodReference" />
-      <module name="someJavaApplications" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="study.methodreference.*" />
+          <option name="PATTERN" value="leetcode.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,6 +73,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="study.methodreference.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mergeAlternately" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.easy.mergeAlternately" />
+      <module name="someJavaApplications" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.mergeAlternately" />
         <item itemvalue="Application.twoSum" />
         <item itemvalue="Application.study.methodreference.FunctionMethodReferenceExample" />
         <item itemvalue="Application.RefactorMethodReferenceExample" />
-        <item itemvalue="Application.ConsumerMethodReference" />
-        <item itemvalue="Application.ConstructorReferenceExample" />
+        <item itemvalue="Application.PalindromNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +250,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666017126491</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="get back into learning">
+      <created>1671798002573</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1671798002573</updated>
+    </task>
+    <task id="LOCAL-00018" summary="get back into learning, closedBrackets task">
+      <created>1672252626767</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1672252626767</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,7 +294,9 @@
     <MESSAGE value="oldInterview task :)" />
     <MESSAGE value="Nix challenge" />
     <MESSAGE value="leetcode medium" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode medium" />
+    <MESSAGE value="get back into learning" />
+    <MESSAGE value="get back into learning, closedBrackets task" />
+    <option name="LAST_COMMIT_MESSAGE" value="get back into learning, closedBrackets task" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -336,7 +354,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/nixchallenge/Task4.java</url>
           <line>98</line>
-          <properties class="nixchallenge.Task4">
+          <properties class="nixchallenge.Task4" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
