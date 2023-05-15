@@ -72,7 +72,7 @@
       <module name="someJavaApplications" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="study.methodreference.*" />
+          <option name="PATTERN" value="leetcode.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
