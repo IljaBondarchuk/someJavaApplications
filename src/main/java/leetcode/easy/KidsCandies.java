@@ -5,6 +5,7 @@ import java.util.List;
 
 public class KidsCandies {
     public static void main(String[] args) {
+        Candy candy = new Candy();
       int [] candies = new int[]{4,2,1,1,2};
       int extraCandies = 1;
       KidsCandies kidsCandies = new KidsCandies();
@@ -28,6 +29,11 @@ public class KidsCandies {
             }
         }
         return addedExtra;
+    }
+
+    public static String getRandomColor(){
+
+        return Colors.values()[0].name();
     }
 
 }

@@ -1,5 +1,7 @@
 package leetcode.easy;
 
+import checkHomework.ArrayList;
+
 import java.util.*;
 
 /**
@@ -14,10 +16,10 @@ import java.util.*;
  *
  */
 public class weakestRow {
-
+/*
     public static int[] findWeak(int[][] row, int count){
         HashMap<Integer,Integer> sortedMap = new HashMap<>();
-        ArrayList<Integer> result = new ArrayList<>();
+        checkHomework.ArrayList<Integer> result = new ArrayList<>();
         for (int i = 0; i < row.length; i++){
             sortedMap.put(i,Arrays.stream(row[i]).sum());
         }
@@ -53,4 +55,5 @@ public class weakestRow {
         System.out.println(findWeak(mat, 2));
 
     }
+    */
 }
